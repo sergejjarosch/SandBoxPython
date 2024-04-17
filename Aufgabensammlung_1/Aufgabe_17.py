@@ -15,16 +15,19 @@ Beispielausgabe2:
 String = „ichKannMitMehrerenWortenEineVariabelBeschreiben“
 """
 
-eingabe = "Hallo World"
-kleine_worte = eingabe.lower().split()
-neue_liste =[]
+eingabe = "Hallo Alle Zusammen wir werden uns freuen euch zu sehen"
+eingabe = eingabe.lower().split()
+neue_liste = ""
 
-for wort in kleine_worte:
-    wort = wort.capitalize()
-    neue_liste.append(wort)
+for wort in eingabe:
+    neue_liste += wort.capitalize()
 
-formatierte_eingabe = "".join(neue_liste)
-formatierte_eingabe = formatierte_eingabe[0].lower() + formatierte_eingabe[1:]
+neue_liste = neue_liste[0].lower() + neue_liste[1:]
+print(neue_liste)
 
-print(formatierte_eingabe)
+#-----  title version --------
 
+eingabe_2 ="Hallo Alle Zusammen wir werden uns freuen euch zu sehen"
+eingabe_2 = eingabe_2.title().replace(" ","")
+eingabe_2 = eingabe_2[0].lower() + eingabe_2[1:]
+print(eingabe_2)
