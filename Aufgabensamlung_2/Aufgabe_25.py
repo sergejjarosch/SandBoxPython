@@ -14,7 +14,7 @@ eingabe_1 = [1, 1, 1, 1, 1]
 eingabe_2 = [2, 2, 2, 2, 2]
 ausgabe = []
 
-for i in range(len(eingabe_1) & len(eingabe_2)):
+for i in range(len(eingabe_2)):
     ausgabe.append(eingabe_1[i])
     ausgabe.append(eingabe_2[i])
 print(ausgabe)
