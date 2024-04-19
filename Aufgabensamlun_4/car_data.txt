@@ -1,0 +1,10 @@
+1#1954#Audi#550#Berlin
+2#2007#Volkswagen#7500#Dortmund
+3#2011#Ford#48000#Frankfurt
+4#2002#Seat#2500#Stuttgart
+5#1994#Mini#15000#Hamburg
+6#2003#Ford#9500#Leipzig
+7#2009#BMW#20000#Munchen
+8#2004#Seat#27000#Dortmund
+9#2010#Volkswagen#33200#Stuttgart
+10#1994#Porsche#110000#Frankfurt

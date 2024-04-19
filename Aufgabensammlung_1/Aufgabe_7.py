@@ -20,4 +20,5 @@ text = ("Am Freitag gibt es viel Sonnenschein und nur lockere Wolken. Im Süden 
 
 phrase = text.split(".")
 neuer_text = ".\n".join(phrase)
+
 print(neuer_text)
